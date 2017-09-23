@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TemplatesTheme">
+        <attr name="templatesToolbar_AppBarTheme" format="reference"/>
+        <attr name="templatesToolbar_PopupTheme" format="reference"/>
+
+        <attr name="templatesViewer_FabIcon" format="reference"/>
+    </declare-styleable>
+</resources>

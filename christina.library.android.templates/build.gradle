@@ -2,11 +2,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 26
+    buildToolsVersion '26.0.2'
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 25
+        targetSdkVersion 26
     }
     buildTypes {
         release {
@@ -17,5 +17,7 @@ android {
 }
 
 dependencies {
-    api project(':Common')
+    api project(':christina.library.common')
+    api "com.android.support:design:26.1.0"
+    api 'com.android.support.constraint:constraint-layout:1.0.2'
 }

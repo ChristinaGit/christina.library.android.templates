@@ -1,0 +1,4 @@
+<resources>
+    <string name="templates_loading_no_content">Нет содержимого</string>
+    <string name="templates_loading_error">Загрузить не удалось</string>
+</resources>
