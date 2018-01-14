@@ -18,6 +18,6 @@ android {
 
 dependencies {
     api project(':christina.library.common')
-    api "com.android.support:design:26.1.0"
+    api 'com.android.support:design:26.1.0'
     api 'com.android.support.constraint:constraint-layout:1.0.2'
 }
